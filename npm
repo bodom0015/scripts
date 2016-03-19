@@ -1,0 +1,3 @@
+#!/bin/bash
+
+docker run --rm -it -v `pwd`:/data bodom0015/nodejs-bower-grunt npm $@
