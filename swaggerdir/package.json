@@ -1,0 +1,14 @@
+{
+  "name": "angular-rest-generator",
+  "version": "1.0.0",
+  "description": "Swagger generator for AngularJS",
+  "main": "generate-angular.js",
+  "scripts": {
+    "test": "docker run --rm -it -v `pwd`:/data digitallyseamless/nodejs-bower-grunt node generate-angular.js > test-output.js"
+  },
+  "author": "lambert8",
+  "license": "MIT",
+  "dependencies": {
+    "swagger-js-codegen": "^1.1.8"
+  }
+}
